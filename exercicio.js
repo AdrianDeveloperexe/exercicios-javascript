@@ -1,19 +1,8 @@
-var n1 = 15
-var n2 = 25
-
-n1 = n2
-n2 = 15
+let n1 = Number(window.prompt("digite um numero"));
+let n2 = Number (window.prompt("outro numero"));
+let s = n1 + n2 ;
 
 
 
 
-
-
-
-
-
-
-
-
-console.log(n1);
-console.log(n2);
+window.alert("o valor de " + n1 + " + " + n2 + " é " + s );
